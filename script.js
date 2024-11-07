@@ -48,8 +48,26 @@ const account2 = {
   currency: 'USD',
   locale: 'en-US',
 };
+const account3 = {
+  owner: 'Arslan Dogar',
+  movements: [5000, 3400, -150, -790, -3210, -1000, 8500, -30],
+  interestRate: 1.5,
+  pin: 3333,
 
-const accounts = [account1, account2];
+  movementsDates: [
+    '2019-11-01T13:15:33.035Z',
+    '2019-11-30T09:48:16.867Z',
+    '2019-12-25T06:04:23.907Z',
+    '2020-01-25T14:18:46.235Z',
+    '2020-02-05T16:33:06.386Z',
+    '2021-12-22T14:43:26.374Z',
+    '2021-12-23T18:49:59.371Z',
+    '2021-12-24T12:01:20.894Z',
+  ],
+  currency: 'USD',
+  locale: 'en-US',
+};
+const accounts = [account1, account2, account3];
 
 /////////////////////////////////////////////////
 // Elements
