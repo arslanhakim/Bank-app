@@ -27,6 +27,7 @@ const account1 = {
   ],
   currency: 'EUR',
   locale: 'pt-PT', // de-DE
+  username:"jonas",
 };
 
 const account2 = {
@@ -47,6 +48,7 @@ const account2 = {
   ],
   currency: 'USD',
   locale: 'en-US',
+  username:"devis",
 };
 
 const accounts = [account1, account2];
